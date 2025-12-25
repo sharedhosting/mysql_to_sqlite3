@@ -1,7 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.9.5
--- https://www.phpmyadmin.net/
---
 -- 主机： localhost:3306
 -- 生成日期： 2021-05-31 02:51:14
 -- 服务器版本： 10.2.38-MariaDB
@@ -104,7 +100,6 @@ CREATE TABLE `sino_book` (
 
 INSERT INTO `sino_book` (`id`, `typeid`, `userid`, `user`, `subject`, `content`, `postdate`, `email`, `ifcheck`, `language`, `reply`, `replydate`) VALUES
 (2, 0, 0, 'qinggan', 'It is test', 'testing...', 1209700656, 'qinggan@188.com', 1, 2, '<div>testing...</div>', 1209700706),
-
 
 -- --------------------------------------------------------
 
